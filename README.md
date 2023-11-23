@@ -14,6 +14,12 @@ TWILIO_FROM_NUMBER=+xxxxxx
 TWILIO_WHATSAPP=+xxxxxxx
 ```
 
+## Add the below code to app.php under service prodiver
+
+```php
+Oclock\TwilioMessenger\TwilioServiceProvider::class
+```
+
 ## Sample Code
 ```php
 namespace App\Http\Controllers; 
