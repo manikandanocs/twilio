@@ -1,0 +1,28 @@
+{
+    "name": "oclock/twilio-messenger",
+    "description": "this is sameple packages created usign twilio php sdk",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "twilio",
+        "laravel",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Oclock Software",
+            "email": "manikandan.a@oclocksolutions.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^7.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oclock\\TwilioMessenger\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
