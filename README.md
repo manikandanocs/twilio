@@ -14,7 +14,7 @@ TWILIO_FROM_NUMBER=+xxxxxx
 TWILIO_WHATSAPP=+xxxxxxx
 ```
 
-## Add the below code to app.php under service prodiver
+## Add the below code to app.php under service prodiver if not discovered automatically in Lower versions of laravel 
 
 ```php
 Oclock\TwilioMessenger\TwilioServiceProvider::class
