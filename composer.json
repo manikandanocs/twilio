@@ -1,6 +1,6 @@
 {
     "name": "oclock/twilio-messenger",
-    "description": "this is sameple packages created usign twilio php sdk",
+    "description": "The Laravel Twilio SMS package provides a seamless integration of the Twilio SMS/Whatsapp service into your Laravel applications. With this package, you can easily send SMS/Whatsapp messages using the powerful Twilio PHP SDK without the need for extensive manual configuration.",
     "type": "library",
     "license": "MIT",
     "keywords": [
